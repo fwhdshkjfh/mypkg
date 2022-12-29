@@ -9,7 +9,7 @@ class Talker():
         self.n = 0
         node.create_timer(0.5, self.cb)  
 
-def main();
+def main():
     rclpy.init()
     node = Node("talker")
     talker = Talker(node)
