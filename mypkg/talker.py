@@ -14,7 +14,7 @@ class Talker():
     def cb(self):              
         msg = Int16()
         msg.data = self.n
-        talker.pub.publish(msg)
+        self.pub.publish(msg)
         self.n += 1
  
 
@@ -23,6 +23,6 @@ def main():
     node = Node("talker")
     talker = Talker(node)
     rclpy.spin(node)  
-    
+
 if __name__ == '__main__': 
     main()
