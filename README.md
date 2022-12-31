@@ -14,6 +14,7 @@
 
 - 端末を２つ用意して以下のように入力してください。
 - 端末１
-
-~~~$ ros2 run mypkg talker
+```
+$ ros2 run mypkg talker
+```
 
