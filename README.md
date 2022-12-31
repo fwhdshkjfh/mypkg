@@ -17,7 +17,11 @@
 
 - 端末１
 
-~~~ $  ros2 run mypkg talker ~~~
+~~~$ ros2 run mypkg talker~~~
+
+- 端末２
+
+~~~$ ros2 run mypkg listener~~~:
 
 
 
