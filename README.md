@@ -3,7 +3,11 @@
 
 - このリポジドリはROS2のパッケージです。
 - ROS2をインストールしてない方は先にインストールをお願いします。
-- このリポジトリは
+- ワークスペースにクローンを行ってください。
+
+```
+$ git clone https://github.com/fwhdshkjfh/mypkg.git
+```
 
 
 # talkerとlistener
@@ -26,12 +30,12 @@ $ ros2 run mypkg listener
 - 端末２
 
 ```
-[INFO] [1672476436.193100443] [listener]: Listen: 28
-[INFO] [1672476436.681608776] [listener]: Listen: 29
-[INFO] [1672476437.180927024] [listener]: Listen: 30
-[INFO] [1672476437.681568509] [listener]: Listen: 31
-[INFO] [1672476438.182847778] [listener]: Listen: 32
-[INFO] [1672476438.682286210] [listener]: Listen: 33
+[INFO] [1672476436.193100443] [listener]: Listen: 0
+[INFO] [1672476436.681608776] [listener]: Listen: 1
+[INFO] [1672476437.180927024] [listener]: Listen: 2
+[INFO] [1672476437.681568509] [listener]: Listen: 3
+[INFO] [1672476438.182847778] [listener]: Listen: 4
+[INFO] [1672476438.682286210] [listener]: Listen: 5
 (以下略)
 ```
 
