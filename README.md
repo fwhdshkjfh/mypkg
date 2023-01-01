@@ -3,16 +3,12 @@
 
 - このリポジドリはROS2のパッケージです。
 - ROS2をインストールしてない方は先にインストールをお願いします。
-- ワークスペースにクローンを行ってください。
 
-```
-$ git clone https://github.com/fwhdshkjfh/mypkg.git
-```
 
 
 # talkerとlistener
 - talkerはcountupというトピックを通じて、Int16型のメッセージを送信します。
-- listenerはtalkerから送信されたInt16型のメッセージを受信して出力します。
+- listenerはcountupからInt16型のメッセージを受信して出力します。
 
 ## 入力と実行結果
 
@@ -62,7 +58,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 # ライセンス
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 -  このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
-- [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+    - [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
 © 2022 shou uchida
 
